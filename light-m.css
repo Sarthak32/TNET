@@ -1,0 +1,236 @@
+:root {
+    --orange: #f7a854;
+    --dark: #03060f;
+    --grey: #30353b;
+    --darkest: #020203;
+    --light: #e4e8f5;
+    --white: #f2f3f5;
+    --red: #db463b;
+}
+* {
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+body {
+    font-family: sans-serif;
+    background: var(--light);
+}
+
+.content {
+    padding-top: 0.2rem;
+}
+
+.content .title {
+    margin-left: 1.5rem;
+}
+
+.content .title img {
+    height: 2.2rem;
+    vertical-align: top;
+    padding-top: 0.2rem;
+}
+
+.content .title h2 {
+    font-size: 2.5rem;
+    display: inline-block;
+    padding-left: 2px;
+}
+.content .herebtns {
+    position: absolute;
+    right: 0;
+    text-align: right;
+    margin-right: 2rem;
+}
+.content .herebtns button span{
+    color: white;
+}
+.content .herebtns button:hover span,i{
+    color: black;
+}
+.content .herebtns button {
+    border: none;
+    display: inline;
+    position: relative;
+    flex: 1 1 0%;
+    border-radius: 1.7rem;
+    background: var(--dark);
+    color: var(--white);
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.content button:hover {
+    background: var(--white);
+    color: var(--dark);
+    transform: scale(1.04);
+}
+.head{
+    margin-left: 2rem;
+
+}
+.main-content .content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 15px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    column-fill: auto;
+    width: 95%;
+    object-fit: cover;
+}
+
+.cont img {
+    padding-top: 10px;
+    width: 100%;
+    height: 400px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    border-radius: 1rem;
+}
+
+.cont img:hover {
+    transform: scale(1.03);
+}
+
+.cont .dish-name {
+    display: block;
+    text-align: center;
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+}
+.cont .price,button{
+    display:inline;
+} 
+
+.cont .price{
+    
+}
+.cont button{
+    padding-left: 2rem;
+    align-items: center;
+    justify-content: centre;
+    background: green;
+    color: var(--white);
+    border-radius: 0.5rem;
+    border: 1px solid var(--dark);
+}
+.cont button:hover {
+    color: greenyellow;
+    transform: scale(1.03);
+}
+
+.new-head {
+    padding-top: 1rem;
+    font-size: 1.4rem;
+    margin-left: 2rem;
+}
+footer {
+    background: var(--white);
+    color: var(--darkest);
+    padding: 30px 0px 40px;
+}
+
+footer .end-head {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1.3rem;
+}
+
+footer .end {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+footer .end ul {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    line-height: 2em;
+    list-style: none;
+}
+
+footer .end ul li {
+    display: block;
+    text-align: -webkit-match-parent;
+}
+
+footer .end .social ul li {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+@media only screen and (max-width: 700px){
+    .main-content .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    column-fill: auto;
+    width: 95%;
+    object-fit: cover;
+}
+    .content .herebtns {
+        position: absolute;
+        right: 0;
+        text-align: right;
+        margin-right: 3px;
+    }
+    .content .herebtns button {
+    display: block;
+    border-spacing: 2px;
+    position: relative;
+    flex: 1 1 0%;
+    width: 6rem;
+    height: 3rem;
+    margin: 2px;
+    margin-right: 2px;
+    border-radius: 4px;
+    background: var(--dark);
+    color: var(--white);
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+
+.cont img {
+    padding-top: 10px ;
+    width: 95% ;
+    height: 300px ;
+    cursor: pointer ;
+    transition: 0.2s ease ;
+    border-radius: 1rem ;
+}
+
+
+
+
+
+
+    footer .end-head {
+        margin-left: 20px ;
+        margin-right: 20px ;
+        font-size: 1rem ;
+}  
+    footer .end {
+        margin-right: 20px;
+        margin-left: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+}
+
+
+
+
+}
+
