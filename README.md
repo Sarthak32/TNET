@@ -17,9 +17,9 @@ and uses PHP and MySQL database for user authentication and registration.
 * PHP
 * MySQL
 
-##Dekstop Preview :
+## Dekstop Preview :
 
-##Moblie Preview : 
+## Moblie Preview : 
 
 ## Disclaimer
 **This project was created as a beginner-level project and is intended for educational purposes only. While the code has been tested and is functional.**
