@@ -17,9 +17,13 @@ and uses PHP and MySQL database for user authentication and registration.
 * PHP
 * MySQL
 
-## Dekstop Preview :
+## Website Preview :
 
-## Moblie Preview : 
+
+https://github.com/Sarthak32/TNET/assets/92269596/c63d426d-cfb4-4716-af09-3fb82a7ca4ce
+
+
+
 
 ## Disclaimer
 **This project was created as a beginner-level project and is intended for educational purposes only. While the code has been tested and is functional.**
